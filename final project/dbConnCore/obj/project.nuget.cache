@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kbs+lVpJgb4JctRRUbpOHOuoSr9CGzI9vOJG/KiisOczDh+9CvcGltUMieY4tNNXvc8a6vG697N41A0yQRcpDQ==",
+  "dgSpecHash": "haFRlE0x/RRyexX9nOc37D0KTo8atYkmcYBGnIpnakVhHmLTPInvW8wuXenYJZASHk8Xkb36VZNm/KKyz9w6Mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\New folder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj",
+  "projectFilePath": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\Newfolder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saijyothi.bheri\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\saijyothi.bheri\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

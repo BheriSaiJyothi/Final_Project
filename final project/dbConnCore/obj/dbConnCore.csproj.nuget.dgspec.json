@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\New folder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj": {}
+    "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\Newfolder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\New folder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj": {
+    "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\Newfolder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\New folder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj",
+        "projectUniqueName": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\Newfolder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj",
         "projectName": "dbConnCore",
-        "projectPath": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\New folder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj",
+        "projectPath": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\Newfolder\\Final_Project\\final project\\dbConnCore\\dbConnCore.csproj",
         "packagesPath": "C:\\Users\\saijyothi.bheri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\New folder\\Final_Project\\final project\\dbConnCore\\obj\\",
+        "outputPath": "C:\\Users\\saijyothi.bheri\\source\\repos\\BheriSaiJyothi\\Newfolder\\Final_Project\\final project\\dbConnCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saijyothi.bheri\\AppData\\Roaming\\NuGet\\NuGet.Config",

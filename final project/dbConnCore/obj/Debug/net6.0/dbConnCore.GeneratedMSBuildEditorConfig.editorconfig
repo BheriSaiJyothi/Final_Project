@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dbConnCore
 build_property.RootNamespace = dbConnCore
-build_property.ProjectDir = C:\Users\saijyothi.bheri\source\repos\BheriSaiJyothi\New folder\Final_Project\final project\dbConnCore\
+build_property.ProjectDir = C:\Users\saijyothi.bheri\source\repos\BheriSaiJyothi\Newfolder\Final_Project\final project\dbConnCore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\saijyothi.bheri\source\repos\BheriSaiJyothi\New folder\Final_Project\final project\dbConnCore
+build_property.MSBuildProjectDirectory = C:\Users\saijyothi.bheri\source\repos\BheriSaiJyothi\Newfolder\Final_Project\final project\dbConnCore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Add_Apartment.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Add_Apartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkX0FwYXJ0bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Delete_residents.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Delete_residents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlX3Jlc2lkZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Edit_Residents.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Edit_Residents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdF9SZXNpZGVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Error.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/individual_resident.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/individual_resident.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kaXZpZHVhbF9yZXNpZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Privacy.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Shared/Apartment_Detail.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Shared/Apartment_Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEFwYXJ0bWVudF9EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/_ViewImports.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/_ViewStart.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Add_residents.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Add_residents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkX3Jlc2lkZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-w2j2bhlbwf
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Admin.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4n2g27u9dd
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/All_payments.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/All_payments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsX3BheW1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-kq708qjqm8
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Index.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1u9yjw0b73
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/login.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4fltk7o0yn
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Payment.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Payment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-komv3drcwp
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/ResidentsDetail.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/ResidentsDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzaWRlbnRzRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-9oqzw1iwzh
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/resident_history.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/resident_history.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVzaWRlbnRfaGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-z5rgr0524q
 
-[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/New folder/Final_Project/final project/dbConnCore/Pages/Shared/_Layout.cshtml]
+[C:/Users/saijyothi.bheri/source/repos/BheriSaiJyothi/Newfolder/Final_Project/final project/dbConnCore/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h0qhgajfg3
