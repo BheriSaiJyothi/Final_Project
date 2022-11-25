@@ -1,0 +1,48 @@
+﻿@page
+@model dbConnCore.Pages.AdminModel
+@{
+   
+        ViewData["Title"] ="Admin page";
+
+  
+  }     
+    <body>
+        <div class="Login">
+            <div class="text-center">
+                <h1 class="display-4" style="color:darkorange"><i>Owner..</i></h1>
+               
+            </div>
+            <form method="post">
+                @*<div class="imgcontainer">
+                    <img src="https://img.freepik.com/free-photo/hand-presenting-model-house-home-loan-campaign_53876-104970.jpg?size=626&ext=jpg&ga=GA1.2.967321065.1668773077" alt="Logo" height="200" width="442">
+                </div> *@
+
+
+                <br>
+                <br>
+                <div class="container">
+                    <label for="email"><b>EMAIL:</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <br />
+                    <label for="psw"><b>PASSWORD:</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                   
+                    <br /><br />
+                    <button name="look" onclick="location.href='/Residents_Detail'" type="submit">look</button>
+
+                    <button name="view" onclick="location.href='/All_payments'" type="submit">All Payments</button>
+                    <br /><br />
+                    <br /><br />
+                    <br /><br />
+                    <button name="logout" onclick="location.href='/Index'" type="submit" style="align-content:center">logout</button>
+
+                </div>
+
+
+
+            </form>
+        </div>
+    </body>
+
+
+

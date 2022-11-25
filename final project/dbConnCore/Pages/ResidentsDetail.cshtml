@@ -1,0 +1,45 @@
+﻿@page
+
+@model dbConnCore.Pages.ResidentsDetailModel
+@{
+    ViewData["Title"] = "Residents";
+    }
+    <p>This is residents..</p>
+   
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th> Resident-Id &nbsp;&nbsp; </th>
+                <th> Resident-Name&nbsp;&nbsp;</th>
+                
+                <th> Resisent E-Mail&nbsp;&nbsp;  </th>
+                <th>Resident-Phone number&nbsp;&nbsp; </th>
+                <th> Resident-Date &nbsp;&nbsp;</th>
+                <th> Resident - Password&nbsp;&nbsp;</th>
+                <th> Delete Residents detail</th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var x in Model.resident) {
+            <tr>
+                  <td>@x.Resident_Id</td>
+                  <td>@x.Resident_Name</td>
+                  <td>@x.Resident_Email</td>
+                  <td>@x.Resident_Phone</td>
+                  <td>@x.Resident_Date</td>
+     
+                  <td> @x.Resident_Password</td>
+                    <td><a href="/Delete_residents?Resident_Name=@x.Resident_Name" class="btn btn-danger"> Delete</a></td>
+
+
+
+                </tr>
+            }
+       </tbody>
+        
+    </table>
+

@@ -1,0 +1,98 @@
+div[name = text][b-4fltk7o0yn] {
+    color:darkred;
+    font-style: italic;
+}
+
+
+
+
+body[b-4fltk7o0yn] {
+    background: url(https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg);
+    background-size: 100%;
+}
+
+html[b-4fltk7o0yn] {
+    background: url(https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+/* Full-width inputs */
+input[type=email][b-4fltk7o0yn], input[type=password][b-4fltk7o0yn] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: large;
+    border-radius: 15px;
+    color:darkblue ;
+}
+
+
+
+/* Set a style for Login button */
+button[name="Login"][b-4fltk7o0yn] {
+    background: linear-gradient( #50068a,#e109e8);
+    color: orange;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25px;
+}
+
+
+
+button[name="Register"][b-4fltk7o0yn] {
+    background: linear-gradient(#a61cb0,#50068a);
+    color:orange;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 70px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25px;
+}
+/* Add a hover effect for buttons */
+button:hover[b-4fltk7o0yn] {
+    opacity: 0.8;
+}
+
+
+
+
+
+/* Center the avatar image inside this container */
+.imgcontainer[b-4fltk7o0yn] {
+    height: auto;
+    width: 500px;
+    margin-left: 450px;
+}
+
+
+
+/* Avatar image */
+
+
+
+/* Add padding to containers */
+.container[b-4fltk7o0yn] {
+    padding: 16px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+}

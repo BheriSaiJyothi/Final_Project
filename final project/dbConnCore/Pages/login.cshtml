@@ -1,0 +1,42 @@
+﻿@page
+@model dbConnCore.Pages.loginModel
+@{
+    <head>
+        <title>@ViewData["Title"] - Login page</title>
+    </head>
+    <body>
+        <div class="Login">
+            <div class="text-center">
+                <h1 class="display-4" style="color:maroon"><i>Society Management</i></h1>
+                <p>
+                   <b>Feelz like real home </b> <br />
+                    <b>Live it</b>
+                </p>
+            </div>
+            <form method="post">
+                
+
+              @*  <div class="imgcontainer">
+                    <img src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg" alt="Logo" height="200" width="442">
+                </div> *@
+
+                <br>
+                <br>
+                <div class="container">
+                    <label for="email"><b>EMAIL</b></label>
+                    <input type="email" placeholder="Enter Email:" name="email" required>
+                    <br />
+                    <label for="psw"><b>PASSWORD:</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <br /><br />
+                    <button name="Login" type="submit" onclick="location.href='/individual_resident?Resident_Email=email&Resident_Password=psw'">Login</button>
+                    <button name="Register" onclick="location.href='/Add_residents'" type="submit">Register</button>
+
+                </div>
+
+
+
+            </form>
+        </div>
+    </body>
+}

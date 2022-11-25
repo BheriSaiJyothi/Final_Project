@@ -1,0 +1,41 @@
+﻿@page
+@model dbConnCore.Pages.resident_historyModel
+@{
+    ViewData["Title"] = "History";
+   }
+
+    <p>The history details  </p>
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th> Payer-Name &nbsp;&nbsp; </th>
+                <th>Payer -Date&nbsp;&nbsp;</th>
+
+                <th> Payer-Status&nbsp;&nbsp;  </th>
+                <th> Payer-Amount&nbsp;&nbsp;  </th>
+
+
+
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var x in Model.history12)
+            {
+                <tr>
+                    <td>@x.name</td>
+                    <td>@x.paid_date</td>
+                    <td>@x.status</td>
+                    <td> @x.amount </td>
+
+
+
+                </tr>
+            }
+        </tbody>
+
+    </table>
+

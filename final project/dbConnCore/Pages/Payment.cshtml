@@ -1,0 +1,56 @@
+﻿@page
+@model dbConnCore.Pages.PaymentModel
+@{
+    ViewData["Title"] = "  Payment ";
+    }
+
+    <body>
+        <div class="Login">
+            <div class="text-center">
+                <h1 class="display-4" style="color:maroon"><i> Details</i></h1>
+                <p>
+                    <b>Feelz like real home </b> <br />
+                    <b>Live it</b>
+                </p>
+            </div>
+            <form method="post">
+               @* <div class="imgcontainer">
+                    <img src="https://www.indiafilings.com/images/Deduction-for-Rent.png" alt="Logo" height="200" width="442">
+                </div>  *@
+
+                @*<button name="History" onclick="location.href='/resident_history'" type="submit">History</button>*@
+                <br>
+                <br>
+                <div class="container">
+                    <label for="name"><b>NAME</b></label>
+                    <input type="text" placeholder="Ener Name" name="name" required>
+                    <br />
+                    <br />
+                    <label for="p_date"><b>PAID DATE</b></label>
+                    <input type="datetime" placeholder="Enter Date" name="p_date" required>
+                    <br />
+                    <br />
+                     <label for="status"><b>STATUS</b></label>
+                    <input type="text" placeholder="Enter Status" name="status" required>
+                    <br />
+                    <br />
+                    <label for="amount"><b>AMOUNT</b></label>
+                    <input type="text" placeholder="Enter Amount" name="amount"  maxlength="4" required>
+                    <br />
+                    <br />
+                    @*<button name="Login" type="submit">Login</button>*@
+                    <button class="btn btn-success">SUBMIT</button>
+
+                  
+
+                
+
+                </div>
+
+
+
+            </form>
+        </div>
+    </body>
+
+

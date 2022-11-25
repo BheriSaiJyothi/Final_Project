@@ -1,0 +1,46 @@
+﻿@page
+@model dbConnCore.Pages.individual_residentModel
+@{
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th> Resident-Id &nbsp;&nbsp; </th>
+                <th> Resident-Name&nbsp;&nbsp;</th>
+
+                <th> Resisent E-Mail&nbsp;&nbsp;  </th>
+                <th>Resident-Phone number&nbsp;&nbsp; </th>
+                <th> Resident-Date &nbsp;&nbsp;</th>
+                <th> Resident - Password&nbsp;&nbsp;</th>
+                <th> Update Residents detail&nbsp;&nbsp;</th>
+     @*           <th> Delete Residents detail&nbsp;&nbsp;</th> *@
+            <th> Payment    </th>
+            <th> Logout</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var x in Model.resident)
+            { 
+                <tr>
+                    <td>@x.Resident_Id</td>
+                    <td>@x.Resident_Name</td>
+                    <td>@x.Resident_Email</td>
+                    <td>@x.Resident_Phone</td>
+                    <td>@x.Resident_Date</td>
+                    <td> @x.Resident_Password</td>
+                    <td><a href="/Edit_Residents?Resident_Id=@x.Resident_Id&Resident_Name=@x.Resident_Name" class="btn btn-success"> Update</a></td>
+                 @*   <td><a href="/Delete_residents?Resident_Id=@x.Resident_Id" class="btn btn-danger"> Delete</a></td>*@
+                    <td><a href="/Payment?Resident_Name=@x.Resident_Name" class="btn alert-primary"> Payment</a></td>
+                    <td><a href="/login" class="btn btn-secondary">Logout</a></td>
+
+
+
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}

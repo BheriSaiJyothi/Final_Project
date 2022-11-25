@@ -1,0 +1,45 @@
+﻿@page
+@model dbConnCore.Pages.Add_ApartmentModel
+@{
+    <h1>Add new  apartment</h1>
+    @if (Model.success_msg.Length > 0)
+    {
+        <div>
+            <div class="row-cols-1">
+                <div class="alert alert-success alert-dismissible">
+                    @Model.success_msg
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            </div>
+        </div>
+    }
+    if (Model.error_msg.Length > 0)
+    {
+        <div>
+            <div class="row-cols-1">
+                <div class="alert alert-danger alert-dismissible">
+                    @Model.error_msg
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            </div>
+        </div>
+    }
+    <form method="post">
+        <div class="row row-cols-1">
+            <label class="col-form-label">Apartment Id</label>
+            <div>
+                <input type="number" class="form-control" name="Apartment_Id" value="" required></input>
+            </div>
+
+           
+            <br>
+            <br>
+            <br>
+            <div>
+                <button class="btn btn-success">SUBMIT</button>
+                <a href="/Apartment_Detail" type="reset" class="btn btn-danger">Cancel</a>
+            </div>
+
+        </div>
+    </form>
+}

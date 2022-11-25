@@ -1,0 +1,23 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg");
+   
+    background-size:100%;
+}
+.text_align_center {
+    text-align: center;
+}

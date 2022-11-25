@@ -1,0 +1,35 @@
+﻿@page
+@model dbConnCore.Pages.Shared.Apartment_DetailModel
+@{
+    <p>This is apartment</p>
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Apartment-Id &nbsp;&nbsp; </th>
+                <th> Apartment-Type&nbsp;&nbsp;</th>
+
+                <th>Apartment-Name &nbsp;&nbsp;  </th>
+                
+
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var x in Model.ap)
+            {
+                <tr>
+                    <td>@x.Apartment_Id</td>
+                    <td>@x.Apartment_Type</td>
+                    <td>@x.Apartment_Name</td>
+                    
+
+
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}

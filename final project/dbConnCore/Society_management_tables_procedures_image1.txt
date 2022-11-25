@@ -1,0 +1,78 @@
+Residents table:   
+create  table residents (
+Resident_Id int ,
+Resident_Name  varchar(42)  ,
+Resident_Email varchar(42),
+Resident_Phone bigint ,
+Resident_Date datetime ,
+Resident_Password varchar(42) 
+);
+
+
+All payments table :
+create table All_payments (
+name varchar(42) ,
+paid_date datetime ,
+status varchar(42) ,
+amount bigint 
+);
+
+
+
+Procedures :
+
+add resident :
+create procedure add_resident (@Resident_Id int , @Resident_Name varchar(42) , @Resident_Email varchar(42) , @Resident_Phone bigint, @Resident_Date datetime, @Resident_Password varchar(42))
+as
+insert into residents values (@Resident_Id, @Resident_Name , @Resident_Email, @Resident_Phone , @Resident_Date, @Resident_Password )
+
+
+
+all payment:
+create procedure all_payments (@name varchar(42) , @paid_date datetime ,  @status varchar(42) ,@amount bigint  )
+as
+insert into all_payment values (@name , @paid_date , @status ,@amount ) ;
+
+
+delete_residents:
+create procedure delete_residents(@Resident_Name varchar(42) )
+as
+delete from residents where Resident_Name = @Resident_Name ;
+delete from all_payment where name = @Resident_Name ;
+
+
+each history:
+create procedure each_history (name varchar(42) )
+as
+select * from all_payments where name =@name ;
+
+
+individual resident :
+create procedure individual_resident (@Resident_Email varchar(42) )
+as
+select * from residents where Resident_Email = @Resident_Email ;
+
+
+print details:
+create procedure print_details 
+as
+select * from all_payments ;
+
+resident details :
+create procedure resident_details as
+select * from  residents ;
+
+
+
+
+update residents:
+create procedure update_residents (  @Resident_Id int ,@Resident_Name varchar(42) , @Resident_Email  varchar(42) , @Resident_Phone bigint , @Resident_Date datetime , @Resident_Password varchar(42) )
+as
+update residents set Resident_Id = @Resident_Id , Resident_Name = @Resident_Name , Resident_Email = @Resident_Email , Resident_Phone = @Resident_Phone , Resident_Date = @Resident_Date , Resident_Password = @Resident_Password ;
+
+
+
+
+Image :
+
+https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg

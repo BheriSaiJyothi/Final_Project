@@ -1,0 +1,108 @@
+div[name = text][b-4n2g27u9dd] {
+    color: whitesmoke;
+    font-style: italic;
+}
+
+
+
+
+body[b-4n2g27u9dd] {
+    background: url(https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg);
+    background-size: 100%;
+}
+
+html[b-4n2g27u9dd] {
+    background: url(https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+/* Full-width inputs */
+input[type=email][b-4n2g27u9dd], input[type=password][b-4n2g27u9dd] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: large;
+    border-radius: 15px;
+}
+
+
+
+/* Set a style for Login button */
+button[name="look"][b-4n2g27u9dd] {
+    background: linear-gradient( #50068a,#e109e8);
+    color: pink;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25px;
+}
+
+
+
+button[name="view"][b-4n2g27u9dd] {
+    background: linear-gradient(#a61cb0,#50068a);
+    color: pink;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 70px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25px;
+}
+/* Add a hover effect for buttons */
+button:hover[b-4n2g27u9dd] {
+    opacity: 0.8;
+}
+
+
+
+
+
+/* Center the avatar image inside this container */
+.imgcontainer[b-4n2g27u9dd] {
+    height: auto;
+    width: 500px;
+    margin-left: 450px;
+}
+
+
+
+/* Avatar image */
+
+
+
+/* Add padding to containers */
+.container[b-4n2g27u9dd] {
+    padding: 16px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+}
+button[name="logout"][b-4n2g27u9dd] {
+    background: linear-gradient(#a61cb0,#50068a);
+    color: pink;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 70px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25px;
+}

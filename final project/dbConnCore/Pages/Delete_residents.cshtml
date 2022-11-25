@@ -1,0 +1,48 @@
+﻿@page
+@model dbConnCore.Pages.Delete_residentsModel
+@using System.Data.SqlClient
+@{
+    try
+    {
+        //  long Resident_Id = Convert.ToInt32(Request.Query["Resident_Id"]);
+        string Resident_Name = Request.Query["Resident_Name"];
+        string connection = "Data Source=INLPF21DWCZ\\MSSQLSERVER02;Initial Catalog=master;trusted_connection=true";
+        //string connection1 = _configuration.GetConnectionString("DefaultConnection");
+        SqlConnection conn = new SqlConnection(connection);
+        conn.Open();
+
+        SqlCommand cmd = new SqlCommand("Delete_Residents", conn);
+        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+        //*STUDENTS s2=new STUDENTS();
+        // s2.s_id = StudentID; *//*
+
+      //  cmd.Parameters.Add("@Resident_Id", System.Data.SqlDbType.Int).Value = Resident_Id;
+        cmd.Parameters.Add("@Resident_Name", System.Data.SqlDbType.VarChar).Value =Resident_Name;
+      //  Console.WriteLine(Resident_Id);
+
+        cmd.ExecuteNonQuery();
+
+
+
+        //stu_list.ForEach(x => Console.WriteLine(x.s_id + " " + x.s_name + " " + x.month_name + " " + x.course_name+" "+x.e_mail));
+        conn.Close();
+    }
+
+    catch (SqlException ex)
+    {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("Sql Related Issue");
+    }
+    catch (Exception exp)
+    {
+        Console.WriteLine(exp.Message);
+        Console.WriteLine("C# related Issue");
+    }
+
+    Response.Redirect("/ResidentsDetail");
+
+
+
+}
+

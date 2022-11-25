@@ -1,0 +1,28 @@
+label[b-w2j2bhlbwf] {
+    width: 60%;
+    padding: 12px 20px;
+   /* margin: 8px 0;*/
+    margin-left: 5px;
+   /* display: inline-block;*/
+   /* border: 1px solid black;*/
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: x-large;
+    font-display:block ;
+   /* border-radius: 15px;*/
+    color:cyan;
+}
+input[type=text][b-w2j2bhlbwf], input[type=email][b-w2j2bhlbwf], input[type=datetime][b-w2j2bhlbwf], input[type=number][b-w2j2bhlbwf], input[type=password][b-w2j2bhlbwf] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    opacity: 0.4;
+    font-size: large;
+    border-radius: 15px;
+    color: darkblue;
+}
+
